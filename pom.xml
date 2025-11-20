@@ -6,6 +6,9 @@
   <version>0.0.1</version>
   <name>Archetype - xyf-spring-annotation</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>spring-annotation-chapter-01</module>
+  </modules>
   <packaging>pom</packaging>
 
 
