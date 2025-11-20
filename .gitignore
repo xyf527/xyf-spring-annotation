@@ -1,33 +1,165 @@
-### --- IntelliJ IDEA 相关 --- ###
-# 存储项目特定配置的目录
+# ============================================
+# IntelliJ IDEA 相关文件
+# ============================================
 .idea/
-# IntelliJ IDEA 模块文件
 *.iml
-# IntelliJ IDEA 工作区文件
 *.iws
-# IntelliJ IDEA 项目文件
 *.ipr
-# 编译输出目录
 out/
+*.ipr
+*.iws
 
-### --- Maven 相关 --- ###
-# Maven 构建输出目录
+# 插件相关
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# ============================================
+# Maven 构建文件
+# ============================================
 target/
-# 所有模块下的target目录
 **/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
 
-### --- 系统文件 --- ###
-# Mac OS X 系统目录文件
+# ============================================
+# Maven Archetype 相关（用户指定）
+# ============================================
+**/archetype-resources/
+**/src/main/resources/archetype-resources/
+**/src/test/resources/archetype-resources/
+
+# ============================================
+# Maven 元数据目录（用户指定）
+# ============================================
+**/META-INF/maven/
+META-INF/maven/
+
+# 保留必要的 META-INF 内容
+!src/main/resources/META-INF/
+!src/main/resources/META-INF/spring.factories
+!src/main/resources/META-INF/spring/
+!src/main/resources/META-INF/services/
+
+# ============================================
+# 系统文件
+# ============================================
 .DS_Store
-# Windows 缩略图缓存
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
 
-### --- 其他编译输出和临时文件 --- ###
-# Java 类文件
+# ============================================
+# 编译输出和临时文件
+# ============================================
 *.class
-# 日志文件
 *.log
-# 压缩包文件
 *.jar
 *.war
+*.ear
 *.zip
+*.tar.gz
+*.rar
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 打包文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ============================================
+# 日志文件
+# ============================================
+logs/
+*.log
+log/
+**/log/
+**/logs/
+
+# ============================================
+# 环境配置和敏感信息
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.keystore
+*.key
+*.cert
+*.p12
+
+# ============================================
+# 操作系统特定文件
+# ============================================
+# Windows
+[Tt]humbs.db
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# ============================================
+# 测试相关
+# ============================================
+**/test-output/
+**/test-results/
+**/surefire-reports/
+**/failsafe-reports/
+**/jacoco.exec
+
+# ============================================
+# IDE 和编辑器
+# ============================================
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ============================================
+# 其他
+# ============================================
+# 临时文件
+*.tmp
+*.temp
+
+# 备份文件
+*.bak
+*.backup
+
+# 覆盖率报告
+*.gcda
+*.gcno
