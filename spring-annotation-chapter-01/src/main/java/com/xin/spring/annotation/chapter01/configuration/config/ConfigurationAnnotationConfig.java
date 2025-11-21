@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author XYF
  * @date 2025-11-20 20:40
- * @description TODO
+ * @description 模拟的@ConfigurationAnnotation配置类
  */
 
 @Configuration

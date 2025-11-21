@@ -3,7 +3,7 @@ package com.xin.spring.annotation.chapter01.configuration.bean;
 /**
  * @author XYF
  * @date 2025-11-20 20:41
- * @description TODO
+ * @description test Person
  */
 
 public class Person {
