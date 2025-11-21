@@ -19,4 +19,5 @@ public class ComponentScanTest {
         Arrays.stream(names).forEach(System.out :: println);
     }
 
+
 }
