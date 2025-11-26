@@ -12,4 +12,5 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @PropertySource(value = "classpath:test.properties")
 public class PropertySourceConfig {
+
 }
