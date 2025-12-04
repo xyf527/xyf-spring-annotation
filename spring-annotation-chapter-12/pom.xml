@@ -7,10 +7,10 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>spring-annotation-chapter-11</artifactId>
+    <artifactId>spring-annotation-chapter-12</artifactId>
     <packaging>jar</packaging>
 
-    <name>spring-annotation-chapter-11</name>
+    <name>spring-annotation-chapter-12</name>
     <url>http://maven.apache.org</url>
 
     <properties>
