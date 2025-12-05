@@ -20,6 +20,7 @@
         <module>spring-annotation-chapter-11</module>
         <module>spring-annotation-chapter-12</module>
         <module>spring-annotation-chapter-13</module>
+        <module>spring-annotation-chapter-14</module>
     </modules>
     <packaging>pom</packaging>
 
