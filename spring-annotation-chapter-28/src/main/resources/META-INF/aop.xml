@@ -1,0 +1,9 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "https://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+    <weaver options="-showWeaveInfo -verbose">
+        <include within="com.xin.spring.annotation.chapter28..*"/>
+    </weaver>
+    <aspects>
+        <aspect name="com.xin.spring.annotation.chapter28.aspect.EnableLoadTimeWeavingAspect"/>
+    </aspects>
+</aspectj>

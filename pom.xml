@@ -30,6 +30,8 @@
         <module>spring-annotation-chapter-21</module>
         <module>spring-annotation-chapter-22</module>
         <module>spring-annotation-chapter-27</module>
+        <module>spring-annotation-chapter-28</module>
+        <module>spring-annotation-chapter-29</module>
     </modules>
     <packaging>pom</packaging>
 
